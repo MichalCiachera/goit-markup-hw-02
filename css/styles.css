@@ -3,6 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: var(--color-one);
 }
 :root {
   --color-one: #212121;
@@ -22,6 +23,7 @@ body {
   text-decoration: none;
   color: var(--color-three);
   font-size: 26px;
+  line-height: 1.19;
   cursor: default;
 }
 .web {
@@ -30,39 +32,30 @@ body {
 .navigation {
   text-decoration: none;
   font-size: 14px;
+  line-height: 1.14;
   font-weight: 500;
 }
 .navigation .link {
-    color: var(--color-one);
+  color: var(--color-one);
   text-decoration: none;
   cursor: pointer;
 }
-.link:active {
+.link:active,
+.link:hover,
+.link:focus {
   color: var(--color-two);
 }
-.mail-header-index {
+.contact {
   font-size: 14px;
+  line-height: 1.14;
   text-decoration: none;
   color: var(--color-four);
   cursor: pointer;
   font-weight: 500;
 }
-.mail-header-index:hover {
+.contact:hover,
+.contact:focus {
   color: var(--color-two);
-}
-.mail-header-portfolio {
-  font-size: 14px;
-  text-decoration: none;
-  color: var(--color-four);
-  cursor: pointer;
-  font-weight: 500;
-}
-.tel-header {
-  font-size: 14px;
-  text-decoration: none;
-  color: var(--color-four);
-  cursor: pointer;
-  font-weight: 500;
 }
 .header {
   background-color: var(--bakground-one);
@@ -78,10 +71,11 @@ body {
   font-size: 16px;
   line-height: 1.36;
   font-weight: 700;
+  cursor: pointer;
 }
 .topic-three {
   font-size: 16px;
-  font-weight: 700;
+  line-height: 1.14;
   color: var(--color-one);
 }
 .text {
@@ -91,7 +85,7 @@ body {
 }
 .topic-two {
   font-size: 36px;
-  font-weight: 700;
+  line-height: 1.17;
   color: var(--color-one);
 }
 .our-team {
@@ -99,6 +93,7 @@ body {
 }
 .team {
   font-size: 16px;
+  line-height: 1.19;
 }
 .team-header {
   font-weight: 500;
@@ -117,6 +112,7 @@ body {
   text-decoration: none;
   color: var(--color-five);
   font-size: 26px;
+  line-height: 1.19;
   cursor: default;
 }
 .address {
@@ -125,16 +121,13 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
-.mail-footer {
+.contact-footer {
   color: var(--color-six);
   text-decoration: none;
 }
-.mail-footer-portfolio {
-  color: var(--color-six);
-}
-.tel-footer {
-  color: var(--color-six);
-  text-decoration: none;
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--color-two);
 }
 .button-filters {
   background-color: var(--color-seven);
@@ -143,6 +136,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   font-weight: 500;
+  cursor: pointer;
 }
 .button-filters:hover {
   background-color: var(--color-two);
