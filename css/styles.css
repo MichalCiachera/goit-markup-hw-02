@@ -74,7 +74,7 @@ body {
   cursor: pointer;
 }
 .topic-three {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.14;
   color: var(--color-one);
 }
