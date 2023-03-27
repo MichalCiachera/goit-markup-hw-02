@@ -138,7 +138,7 @@ body {
   font-weight: 500;
   cursor: pointer;
 }
-.button-filters:hover
+.button-filters:hover,
 .button-filters:focus {
   background-color: var(--color-two);
   color: var(--color-five);
